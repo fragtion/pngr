@@ -10,9 +10,13 @@ Takes a comma-separated list of hosts to ping. Each host can be customized with 
 
 ## Additional arguments:
 `--rows x` Force the graph grid to use x many rows. Columns auto-adjust unless --cols is also supplied.
+
 `--cols x` Force the graph grid to use x many columns. Rows auto-adjust unless --rows is also supplied.
+
 `--payload-size x` ICMP payload size in bytes (0 = minimal, 8 embeds timestamp). Overrides default behavior.
+
 `--timeout` Ping timeout in seconds for each probe before marking a packet as lost. This is separate from the send rate as set for each host.
+
 `--debug` Enable debug output to stderr
 
 Example:
