@@ -11,6 +11,8 @@ Takes a comma-separated list of hosts to ping. Each host can be customized with 
 ## Additional arguments:
 `--braille` Use Unicode braille rendering for the graphs. Allows for higher resolution (twice as many horizontal points).
 
+`--stretch` Stretch data to fill the full width before the buffer is full. Default is to scroll in from the right with the left side black.
+
 `--rows x` Force the graph grid to use x many rows. Columns auto-adjust unless --cols is also supplied.
 
 `--cols x` Force the graph grid to use x many columns. Rows auto-adjust unless --rows is also supplied.
