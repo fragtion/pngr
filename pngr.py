@@ -23,14 +23,14 @@ LIGHT_GREY = ansi(37)
 FG_DARK = ansi(30)
 
 BG_GOOD  = ansi(48, 2, 64, 128, 64)
-BG_HIGH  = ansi(48, 2, 255, 255, 0)
-BG_WORSE = ansi(48, 2, 128, 128, 0)
+BG_HIGH = ansi(48, 2, 128, 128, 0)
+BG_WORSE  = ansi(48, 2, 255, 255, 0)
 BG_LOSS  = ansi(48, 2, 255, 0, 0)
 BG_BLACK = ansi(40)
 
 FG_GOOD  = ansi(38, 2, 64, 128, 64)
-FG_HIGH  = ansi(38, 2, 255, 255, 0)
-FG_WORSE = ansi(38, 2, 128, 128, 0)
+FG_HIGH = ansi(38, 2, 128, 128, 0)
+FG_WORSE  = ansi(38, 2, 255, 255, 0)
 FG_LOSS  = ansi(38, 2, 255, 0, 0)
 
 class Pending:
@@ -940,7 +940,7 @@ def render_braille(workers, cfgs, cols, rows, grid_rows=None, grid_cols=None, st
 def main():
     ap = argparse.ArgumentParser(
         prog="pngr",
-        description="pngr v1.1 — terminal ping grapher. Monitor latency and packet loss for one or more hosts in a live grid.",
+        description="pngr v1.2 — terminal ping grapher. Monitor latency and packet loss for one or more hosts in a live grid.",
         formatter_class=argparse.RawTextHelpFormatter,
     )
     ap.add_argument("hosts", nargs="+",
