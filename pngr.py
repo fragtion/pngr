@@ -63,8 +63,8 @@ def enable_windows_ansi():
 COLOR_LUMINOSITY = {
     BG_BLACK: 0.00,
     BG_GOOD: 0.43,
-    BG_HIGH: 0.93,
-    BG_WORSE: 0.47,
+    BG_HIGH: 0.47,
+    BG_WORSE: 0.93,
     BG_LOSS: 0.21,
 }
 
