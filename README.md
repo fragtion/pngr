@@ -28,6 +28,7 @@ Example:
 <img width="982" height="514" alt="image" src="https://github.com/user-attachments/assets/f5551a4d-8228-4da1-b52f-4d3a4db5a561" />
 
 
+
 `python3 pngr.py "1.1.1.1{5,0,10,5,7},129.151.169.143{5,0,25,21,23},196.10.99.18{0.1,0,100,80,90},69.180.123.1{5,0,300,200,230},10.13.1.22{5,165,300,180,190},10.1.7.1{3,0,300,180,220},10.77.1.1{3,165,300,220,250},10.77.2.1{3,165,300,220,250}" --rows 2 --braille`
 
 <img width="992" height="512" alt="image" src="https://github.com/user-attachments/assets/68bef384-62c6-4bb8-9359-f10a520141cc" />
