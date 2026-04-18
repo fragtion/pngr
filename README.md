@@ -9,6 +9,8 @@ Takes a comma-separated list of hosts to ping. Each host can be customized with 
 - Y-axis high/low resorts to automatic scaling if left blank
 
 ## Additional arguments:
+`--braille` Use Unicode braille rendering for the graphs. Allows for higher resolution (twice as many horizontal points).
+
 `--rows x` Force the graph grid to use x many rows. Columns auto-adjust unless --cols is also supplied.
 
 `--cols x` Force the graph grid to use x many columns. Rows auto-adjust unless --rows is also supplied.
