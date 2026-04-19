@@ -3,6 +3,9 @@ pngr - A cross-platform, terminal-based Ping Grapher
 
 Inspired by https://github.com/bp2008/pingtracer
 
+## WARNING
+In the current implementation, this tool generates a high volume of terminal output due to frequent screen redraws, resulting in significant bandwidth use (~ 4-10 Mbps). When used over SSH or other remote terminal sessions, this can consume noticeable bandwidth between your machine and the viewing client, and may impact performance on slower connections.
+
 ## Usage
 Takes a comma-separated list of hosts to ping. Each host can be customized with a set of arguments wrapped in curly-brackets as follows: {`ping-rate(pings/second)`, `y-axis low`, `y-axis high`, `ping high threshold`, `ping worse treshhold`}
 - If a value is left blank, the script's default value is used
