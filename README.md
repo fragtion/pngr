@@ -3,6 +3,8 @@ pngr - A cross-platform, terminal-based Ping Grapher
 
 Inspired by https://github.com/bp2008/pingtracer
 
+This was more of a fun experiment than anything. [gpngr](https://github.com/fragtion/gpngr) is this project's "big brother" and, depending on your needs, might prove far more useful to you - be sure to check it out!
+
 ## WARNING
 In the current implementation, this tool generates a high volume of terminal output due to frequent screen redraws, resulting in significant bandwidth use (~ 4-10 Mbps). When used over SSH or other remote terminal sessions, this can consume noticeable bandwidth between your machine and the viewing client, and may impact performance on slower connections.
 
