@@ -6,7 +6,7 @@ Inspired by https://github.com/bp2008/pingtracer
 This was more of a fun experiment than anything. [gpngr](https://github.com/fragtion/gpngr) is this project's "big brother" and, depending on your needs, might prove far more useful to you - be sure to check it out!
 
 ## WARNING
-In the current implementation, this tool generates a high volume of terminal output due to frequent screen redraws, resulting in significant bandwidth use (~ 4-10 Mbps). When used over SSH or other remote terminal sessions, this can consume noticeable bandwidth between your machine and the viewing client, and may impact performance on slower connections.
+In the current implementation, this tool generates a high volume of terminal output due to frequent screen redraws, resulting in significant bandwidth use (~ 4-10 Mbps). When used over SSH or other remote terminal sessions, this can consume noticeable bandwidth between your machine and the viewing client, and may impact performance on slower connections. For future release, we could allow more samples to be buffered together with a reduced update framerate, for more control over bandwidth rate.
 
 ## Usage
 Takes a comma-separated list of hosts to ping. Each host can be customized with a set of arguments wrapped in curly-brackets as follows: {`ping-rate(pings/second)`, `y-axis low`, `y-axis high`, `ping high threshold`, `ping worse treshhold`}
